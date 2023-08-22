@@ -1,0 +1,117 @@
+*{
+    font-family: Inter;
+    margin: 0;
+}
+
+#div-titulo{
+background-color: #303030;
+height: 455px;
+}
+
+#titulo{
+    color: #FFF;
+    font-feature-settings: 'liga' off;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -1.5px;
+    padding: 180px 0px 00px 0px;
+    margin-left: 50px;
+}
+
+#paragrafo-titulo{
+    color: #FFF;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-feature-settings: 'liga' off;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+#div-historico{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 70px 0px 50px 100px;
+    color: #000;
+    font-family: Inter;
+    font-style: normal;
+    line-height: 28px;
+}
+
+#experiencia{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 75px 0px 75px 40px;
+}
+
+
+#texto-experiencia{
+    margin: 155px 0px 0px 50px;
+}
+#titulo-ex{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+#p-ex{
+    margin-top: 60px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#form{
+    background-color: #303030;
+    text-align: center;
+    padding: 75px 0px 60px 0px;
+}
+
+#h1-form{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+input{
+    margin: 45px 0px 0px 0px;
+    width: 413px;
+    height: 53px;
+    flex-shrink: 0;
+    background-color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.30);
+}
+button {
+    margin: 75px 0px 0px 0px;
+    width: 206px;
+    height: 47px;
+    flex-shrink: 0;
+    background-color: #C07212;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 100% */
+}
